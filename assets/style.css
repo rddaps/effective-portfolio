@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    transition: transform 0.5s ease-in-out;
+}
+
+#section1 {
+    background-color: #f0f0f0;
+}
+
+#section2 {
+    background-color: #e0e0e0;
+}
+
+#section3 {
+    background-color: #d0d0d0;
+}
