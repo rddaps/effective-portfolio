@@ -9,7 +9,6 @@ A portfolio site with samples of my work.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
 - [Tests](#tests)
 - [Questions](#questions)
 
