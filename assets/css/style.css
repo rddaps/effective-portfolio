@@ -63,6 +63,47 @@ h2 {
 #section2 {
   background-color: #dcfb2b;
   color: #484267;
+  text-align: center;
+  padding: 40px;
+}
+
+.app {
+  display: flex;
+  flex-direction: block flow;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flex-box {
+  flex: 0 0 calc(25% - 10px); /* Adjust the width as needed */
+  margin: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.flex-box:first-child {
+  flex: 0 0 100%;
+}
+
+.app img {
+  max-width: 100%;
+  border: 2px solid #484267;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* .app:first-child img {
+  width: 300px;
+  height: auto;
+} */
+
+.app img:hover {
+  transform: scale(1.05);
+}
+
+.app h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
 }
 
 #section3 {
